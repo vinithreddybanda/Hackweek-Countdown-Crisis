@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## What Was Fixed
+
+- Statically imported COSC info from JSON for instant, error-free rendering.
+- Cleaned up countdown timer to prevent hydration issues and ensure smooth updates.
+- Removed unnecessary client directive from main page for best practices.
+
+No more console warnings or errors. Everything works as intended.
